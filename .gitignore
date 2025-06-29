@@ -1,0 +1,46 @@
+# ========================
+# Java / Gradle
+# ========================
+/.gradle
+/build
+!/src/main/resources/static
+!/src/main/resources/public
+
+# ========================
+# IDE
+# ========================
+# VSCode
+.vscode/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# OS Specific
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment / Config
+# ========================
+.env
+*.env
+application-local.yml
+application-secrets.yml
+application-dev.yml
+
+# ========================
+# Database
+# ========================
+*.db
+*.dump
+
+# ========================
+# Supabase CLI / Auth Info
+# ========================
+.supabase/
+src/main/resources/application.yml
